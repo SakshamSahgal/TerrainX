@@ -2,7 +2,7 @@
 
 A reusable React map component library. Drop it into any project, render beautiful maps, pin locations, draw routes.
 
-[![Docs](https://img.shields.io/badge/docs-live-blue)](https://your-username.github.io/TerrainX)
+[![Docs](https://img.shields.io/badge/docs-live-blue)](https://sakshamsahgal.github.io/TerrainX)
 
 ## Quick Start
 
@@ -23,7 +23,7 @@ import { Map, Marker, Popup } from 'terrainx'
 
 ## Documentation
 
-Full docs at **[your-username.github.io/TerrainX](https://sakshamsahgal.github.io/TerrainX/)**
+Full docs at **[sakshamsahgal.github.io/TerrainX](https://sakshamsahgal.github.io/TerrainX)**
 
 ## License
 

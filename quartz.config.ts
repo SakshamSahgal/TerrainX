@@ -20,7 +20,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "en-US",
-    baseUrl: "your-username.github.io/TerrainX", // ← update this
+    baseUrl: "sakshamsahgal.github.io/TerrainX",
     ignorePatterns: [".obsidian", "templates", "private"],
     defaultDateType: "modified",
     theme: {
