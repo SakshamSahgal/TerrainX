@@ -10,7 +10,7 @@
 |---|---|---|---|
 | `center` | `{ lat, lon }` | required | Initial map center |
 | `zoom` | `number` | `10` | Initial zoom level (1–20) |
-| `theme` | `string \| MapTheme` | `"light"` | See [[theming]] |
+| `theme` | `string \| MapTheme` | `"coral"` | See [[theming]] |
 | `height` | `string` | `"100%"` | CSS height of map container |
 | `width` | `string` | `"100%"` | CSS width of map container |
 | `onMove` | `(center, zoom) => void` | — | Fires when map is panned/zoomed |

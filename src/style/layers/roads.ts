@@ -2,14 +2,18 @@ import type { LayerSpecification } from 'maplibre-gl'
 import type { MapTheme } from '../../types'
 
 const SOURCE = 'planet'
-const LINE_FILTER = ['match', ['geometry-type'], ['LineString', 'MultiLineString'], true, false] as const
-const NON_RAIL = ['match', ['get', 'class'], ['rail', 'transit'], false, true] as const
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const LINE_FILTER: any = ['match', ['geometry-type'], ['LineString', 'MultiLineString'], true, false]
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const NON_RAIL: any = ['match', ['get', 'class'], ['rail', 'transit'], false, true]
 
 // Zoom-interpolated line widths for the casing (outline) layer
-const CASING_WIDTH = ['interpolate', ['linear'], ['zoom'], 4, 1.2, 8, 2.5, 12, 5, 16, 9] as const
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const CASING_WIDTH: any = ['interpolate', ['linear'], ['zoom'], 4, 1.2, 8, 2.5, 12, 5, 16, 9]
 
 // Zoom-interpolated line widths for the road fill layer
-const ROAD_WIDTH = ['interpolate', ['linear'], ['zoom'], 4, 0.5, 8, 1.2, 12, 2.5, 16, 5] as const
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const ROAD_WIDTH: any = ['interpolate', ['linear'], ['zoom'], 4, 0.5, 8, 1.2, 12, 2.5, 16, 5]
 
 /**
  * Builds road casing (outline border) and road fill layers.

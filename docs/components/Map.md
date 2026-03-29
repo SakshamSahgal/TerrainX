@@ -27,7 +27,7 @@ import { Map } from 'terrainx'
 |---|---|---|---|
 | `center` | `{ lat, lon }` | required | Initial map center |
 | `zoom` | `number` | `10` | Initial zoom (1–20) |
-| `theme` | `string \| MapTheme` | `"light"` | See [[../themes]] |
+| `theme` | `string \| MapTheme` | `"coral"` | See [[../themes]] |
 | `height` | `string` | `"100%"` | CSS height |
 | `width` | `string` | `"100%"` | CSS width |
 | `onMove` | `(center, zoom) => void` | — | Fires on pan/zoom |

@@ -3,7 +3,8 @@ import type { MapTheme } from '../../types'
 
 const SOURCE = 'planet'
 
-const LINE_FILTER = ['match', ['geometry-type'], ['LineString', 'MultiLineString'], true, false] as const
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
+const LINE_FILTER: any = ['match', ['geometry-type'], ['LineString', 'MultiLineString'], true, false]
 
 /** Rail lines. */
 export function buildTransportLayers(theme: MapTheme): LayerSpecification[] {

@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# Vite cache
+.vite/
+
+# CI — Quartz checkout (created by GitHub Actions, not needed locally)
+_quartz/
+
+# Demo app (separate project, not part of the library)
+demo/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local env
+*.local
+.env
