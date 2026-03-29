@@ -25,6 +25,10 @@ import { Map, Marker, Popup } from 'terrainx'
 
 Full docs at **[sakshamsahgal.github.io/TerrainX](https://sakshamsahgal.github.io/TerrainX)**
 
+## Usage Policy
+
+The `<SearchBox />` component uses [Nominatim](https://nominatim.org/) for geocoding (free, no key needed). Per their terms: **do not use in high-traffic production apps**. Fine for personal and test projects.
+
 ## License
 
 MIT with Attribution — if you use TerrainX in your project, please include one of:
