@@ -1,9 +1,16 @@
 {
   "name": "terrainx",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Reusable React map component library powered by MapLibre and OpenFreeMap",
   "author": "Saksham Sahgal",
-  "keywords": ["map", "react", "maplibre", "openstreetmap", "markers", "geojson"],
+  "keywords": [
+    "map",
+    "react",
+    "maplibre",
+    "openstreetmap",
+    "markers",
+    "geojson"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/sakshamsahgal/TerrainX"
