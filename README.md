@@ -23,7 +23,7 @@ import { Map, Marker, Popup } from 'terrainx'
 
 ## Documentation
 
-Full docs at **[your-username.github.io/TerrainX](https://your-username.github.io/TerrainX)**
+Full docs at **[your-username.github.io/TerrainX](https://sakshamsahgal.github.io/TerrainX/)**
 
 ## License
 
